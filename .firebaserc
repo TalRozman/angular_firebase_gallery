@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "myfirstproject-38539": {
+      "hosting": {
+        "Angular_firebase": [
+          "myfirstproject-38539"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "myfirstproject-38539"
+  }
+}

@@ -1,0 +1,10 @@
+<a href="{{ fileUpload.url }}" style="float:left;"><img src="{{ fileUpload.url }}" style="width: 550px;"></a>
+<div ><br/>
+<!-- style="float: right;"> -->
+  Title:<br/> {{fileUpload.title}}<br/><br/>
+  Description:<br/> {{fileUpload.description}}
+</div>
+<button (click)="deleteFileUpload(fileUpload)"
+  class="btn btn-danger btn-sm" style="float: right">
+  Delete
+</button>
